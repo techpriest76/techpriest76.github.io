@@ -1,1 +1,365 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/frontpage.jpeg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Estéfano Vidal.</span>
+                    A Biotechnologist and Data Scientist with emphasis on Machine Learning
+                </h1>
+                <p>
+                    I have always been fascinated by the complex flow of information within biological systems. 
+                    This complexity inspired me to delve into the world of deep learning,
+                    as this field has its foundations in biological models.
+
+                </p>
+                <div class="btn-con">
+                    <div href="#" class="dropdown">
+                      <button class="dropbtn">Download CV <i class="fa fa-caret-down"></i></button>
+                      <div class="dropdown-content">
+                        <a href="/downloads/English.pdf">English</a>
+                        <a href="/downloads/Spanish.pdf">Español</a>
+                        <a href="/downloads/Portuguese.pdf">Português</a>
+                      </div>
+                    </div>
+                  </div>                  
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        Hello, I'm Estéfano, a Peruvian data scientist with a background in biotechnology and genetics. 
+                        My passion lies in extracting valuable insights from data, I achieve this through the use of Machine Learning and Data Visualization.
+                        <br /> <br />
+                        I believe that the limitations we face are mostly self-imposed, which is why I seek out big challenges. 
+                        I value simplicity and mutual understanding, which is why Python is my go-to programming language,
+                         although I am also proficient in Kotlin, C#, and Rust.
+                        <br /> <br />
+                        Apart from data science, I am interested in math, philosophy, biology, and strategy games like Starcraft and chess. 
+                        If you have a project related to any of these areas, I would be love to help!
+                    </p>
+                    <div class="btn-con">
+                        <div href="#" class="dropdown">
+                            <button class="dropbtn">Download CV <i class="fa fa-caret-down"></i></button>
+                            <div class="dropdown-content">
+                            <a href="/downloads/English.pdf">English</a>
+                            <a href="/downloads/Spanish.pdf">Español</a>
+                            <a href="/downloads/Portuguese.pdf">Português</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">Meet Pisco →</p>
+                            <p class="small-text">Good cat <br /> Better friend</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-img">
+                            <img src="img/pisco_1.jpg" alt="Image description">
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-img">
+                            <img src="img/me.jpeg" alt="Image description">
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">Meet me ←</p>
+                            <p class="small-text">Just a nerd <br /> that also likes music</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Genetic algorithms</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="genetic_algorithms"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Data visualization</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="data_visualization"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Machine Learning</p>
+                        <div class="progress-con">
+                            <p class="prog-text"></p>
+                            <div class="progress">
+                                <span class="machine_learning"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2010 - present</p>
+                    <h5>Web Developer<span> - Vircrosoft</span></h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2008 - 2011</p>
+                    <h5>Software Engineer<span> - Boogle, Inc.</span></h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2016 - 2017</p>
+                    <h5>C++ Programmer<span> - Slime Tech</span></h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2009 - 2013</p>
+                    <h5>Business Degree<span> - Sussex University</span></h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2013 - 2016</p>
+                    <h5>Computer Science Degree<span> - Brookes University</span></h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2017 - present</p>
+                    <h5>3d Animation<span> - Brighton University</span></h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                    </p>
+                </div>
+            </div> -->
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here are some of my projects.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/diabetes_ml.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Type 2 Diabetes Prediction with Machine Learning</h3>
+                        <div class="icons">
+                            <a href="https://github.com/techpriest76/diabetes_machine_learning_project" class="icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="downloads/Diabetes_ML_report.pdf" class="icon" download>
+                                <i class="fa-regular fa-file-pdf"></i>
+                            </a>
+                        </div>
+                    </div>
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <a href="blogs/genetic_algorithm_blog.html" target="_blank">
+                            <img src="img/genetic_algorithm_blog.jpg" alt="">
+                            <div class="blog-text">
+                                <h4>
+                                    Biology Inspired Coding: Genetic Algorithms
+                                </h4>
+                        </a>
+                            <p>
+                                How natural selection inspired optimization algorithms that serve as the foundation for machine learning models!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            If you are interested in working with me, or just want to get in touch
+                            you can find me using the information below or writing into the message box.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : Rio de Janeiro, Brazil
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: estefanovm@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>: Universidade Federal do Rio de Janeiro</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: +55(21)98728-5525</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>: Spanish, English, Portuguese</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://github.com/techpriest76" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="send-email.php" method="post" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" class="main-btn">Submit</button>
+                                </div>  
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
