@@ -605,8 +605,11 @@ section {
   font-size: 1.3rem;
 }
 .contact-content-con .right-contact {
-  flex: 3;
-  margin-left: 3rem;
+  flex: 2;
+  margin-left: 5rem;
+  background-image: url("/img/contact_image.jpg");
+  background-size: 100%;
+  background-position: left;
 }
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
